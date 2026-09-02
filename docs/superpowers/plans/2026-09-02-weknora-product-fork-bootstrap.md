@@ -208,14 +208,14 @@ git diff --check
 git status --short --branch
 ```
 
-- [ ] **Step 6: Commit the product baseline documentation**
+- [x] **Step 6: Commit the product baseline documentation**
 
 ```bash
 git add docs/superpowers/specs/2026-09-02-weknora-product-fork-bootstrap-design.md docs/superpowers/plans/2026-09-02-weknora-product-fork-bootstrap.md docs/marketing-agent/weknora-v0.7.2-baseline.md
 git commit -m "docs: establish WeKnora v0.7.2 product baseline"
 ```
 
-- [ ] **Step 7: Push the verified baseline**
+- [x] **Step 7: Push the verified baseline**
 
 ```bash
 git push -u origin main
